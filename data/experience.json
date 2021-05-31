@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "title": "Frontend Developer Intern",
+        "org": "Unbound",
+        "duration": "March 2021 - present",
+        "work": ["Working with VueJS to develop UI/UX for a Learning Management System.", "Developing Company Landing Page using NuxtJS."]
+    },
+    {
+        "id": "2",
+        "title": "Deep Learning Intern",
+        "org": "Grroom",
+        "duration": "February 2021",
+        "work": ["Worked on YOLOv3 and YOLOv4 to train models over custom datasets.", "Leveraged cloud services by Google Colaboratory to train models."]
+    },
+    {
+        "id": "3",
+        "title": "Developer Intern",
+        "org": "Oxygen 2 Innovation",
+        "duration": "July 2020 - September 2020",
+        "work": ["Developed an AI Voice enabled Chatbot on Python using Tensorflow for Deep Learning.", "Used custom dataset to train a fully connected Neural Network.", "GUI using Tkinter, with multithreading and speech-recognition.", "Worked on the Company Website using Bootstrap and PHP with MySQL."]
+    },
+    {
+        "id": "4",
+        "title": "IoT Developer Intern",
+        "org": "Oxygen 2 Innovation",
+        "duration": "June 2019 - July 2019",
+        "work": ["Developed a Smart Mirror using RaspberryPi and Python.", "Incorporated Face Recognition to create a more personalized experience to the product.", "The Mirror displayed health vitals fetched using custom APIs using data leveraged by a Health Band."]
+    }
+]

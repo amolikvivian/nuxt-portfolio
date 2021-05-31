@@ -1,0 +1,85 @@
+[
+    {
+    "id": "1",
+    "img_url": "./assets/project/detect.png",
+    "name": "Social Distance Detection",
+    "tags": [
+      { "name": "python", "color": "background-color:#3772A5;" },
+      { "name": "caffe", "color": "background-color:#BD0101" },
+      { "name": "opencv", "color": "background-color:#40B882;" }
+    ],
+    "description":
+      "OpenCV with Python based project using Caffe and Triangle Similarity Theorem to identify Social Distance Breaches.",
+    "github": "Social-Distance-Breach-Detector-OpenCV-DL"
+  },
+  {
+    "id": "2",
+    "img_url": "calendar.jpeg",
+    "name": "Vuetify-Firestore Calendar",
+    "tags": [
+      { "name": "vue", "color": "background-color:#40B882;" },
+      { "name": "vuetify", "color": "background-color:#1867C0;" },
+      { "name": "firebase", "color": "background-color:#f6830d;" }
+    ],
+    "description":
+      "A Vue2 and Vuetify based calendar application using Cloud Firestore to store and update events.",
+    "github": "Vue-Calendar-Firestore"
+  },
+  {
+    "id": "3",
+    "img_url": "dash.png",
+    "name": "Vue/Bootstrap Dashboard",
+    "tags": [
+      { "name": "vue", "color": "background-color:#40B882;" },
+      { "name": "bootstrap", "color": "background-color:#1867C0;" },
+      {
+        "name": "vuex",
+        "color": "background-color:#F6830D;"
+      }
+    ],
+    "description":
+      "A generic dashboard template using Vue3 and Bootstrap with VueX for state management.",
+    "github": "dashboard-template"
+  },
+  {
+    "id": "4",
+    "img_url": "reddit.jpg",
+    "name": "Subreddit Search with Vue",
+    "tags": [
+      { "name": "vue", "color": "background-color:#40B882;" },
+      { "name": "js", "color": "background-color:#1867C0;" },
+      {
+        "name": "reddit-api",
+        "color": "background-color:#F6830D;"
+      }
+    ],
+    "description":
+      "A basic VueJS application utilizing Reddit API to fetch top posts from a subreddit, currently hard coded to fetch 'r/aww'.",
+    "github": "reddit-client-vue"
+  },
+  {
+    "id": "5",
+    "img_url": "mask.png",
+    "name": "Real Time Mask Detection",
+    "tags": [
+      { "name": "python", "color": "background-color:#3772A5;" },
+      { "name": "keras", "color": "background-color:#BD0101;" },
+      { "name": "cnn", "color": "background-color:#1867C0;" }
+    ],
+    "description":
+      "Deep Learning based Mask Detector using OpenCV. CNN trained model using Keras on Tensorflow.",
+    "github": "Mask-Detector-DL-OpenCV"
+  },
+  {
+    "id": "6",
+    "img_url": "face.png",
+    "name": "Smart Attendance System",
+    "tags": [
+      { "name": "python", "color": "background-color:#3772A5;" },
+      { "name": "face-recognition", "color": "background-color:#40B882;" }
+    ],
+    "description":
+      "Automated Attendance based on Face Recognition through OpenCV in Python and Tkinter",
+    "github": "Smart-Attendance"
+  }
+]
