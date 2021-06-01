@@ -1,23 +1,38 @@
 <template>
   <div class="center-container primary-bg">
-    <h1 class="title">
-      hello!
-      <br />I'm Amolik Vivian Paul
+    <div style="display: flex; flex-direction: column">
+      <h1 class="title">
+        hello!
+        <br />I'm Amolik Vivian Paul
+      </h1>
       <div class="typewriter">
         <p>and this website, is about me.</p>
       </div>
-    </h1>
-
+    </div>
     <div class="bottom">
       <a href="#projects">
-        <img src="./../assets/icons/down.png" alt srcset />
+        <img id="arrow" src="./../assets/icons/down.png" alt srcset />
       </a>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  created() {
+    window.addEventListener('scroll', this.hideArrow)
+  },
+  methods: {
+    hideArrow() {
+      let arrow = document.getElementById('arrow')
+      if (window.scrollY > 100) {
+        arrow.classList.add('d-none')
+      } else if (window.scrollY < 100) {
+        arrow.classList.remove('d-none')
+      }
+    },
+  },
+}
 </script>
 
 <style scoped>
@@ -26,12 +41,12 @@ export default {}
   font-size: 4rem;
   animation: 3s appear;
   background-color: transparent;
-  line-height: 70px;
+  /* line-height: 70px; */
+  text-align: left;
 }
 img {
   width: 40px;
-  animation: 2s appear;
-  animation-iteration-count: infinite;
+  animation: 2s appear infinite;
   background-color: transparent;
 }
 .bottom {
@@ -40,13 +55,21 @@ img {
 }
 p {
   font-size: 2rem;
-  color: rgb(51, 51, 51);
+  color: rgb(44, 44, 44);
+  font-weight: bold;
+  padding-top: 0.7rem;
+}
+.d-none {
+  display: none;
+}
+.d-show {
+  display: block;
 }
 
 .typewriter p {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 1% auto; /* Gives that scrolling effect as the typing happens */
+  margin: 0; /* Gives that scrolling effect as the typing happens */
   animation: typing 2.5s steps(40, end);
   text-align: left;
 }

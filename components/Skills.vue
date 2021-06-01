@@ -1,6 +1,6 @@
 <template>
   <div class="center-container">
-    <h1 class="title">Tools n' Technologies</h1>
+    <h1 class="title">Tools and Technologies</h1>
     <div class="row" style>
       <img
         align="left"

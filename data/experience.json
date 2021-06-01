@@ -4,7 +4,7 @@
         "title": "Frontend Developer Intern",
         "org": "Unbound",
         "duration": "March 2021 - present",
-        "work": ["Working with VueJS to develop UI/UX for a Learning Management System.", "Developing Company Landing Page using NuxtJS."]
+        "work": ["Working with VueJS to develop UI/UX for a Learning Management System.", "Developing Company Landing Page using NuxtJS.", "Developing a dashboard with VueJS using APIs to maintain content based data displayed on the website."]
     },
     {
         "id": "2",

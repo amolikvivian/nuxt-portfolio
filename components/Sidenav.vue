@@ -25,6 +25,7 @@ export default {
   background-color: transparent;
   width: 40px;
   margin: 1.5rem 0;
+  animation: 2s appear;
   transition: 0.2s ease-in-out;
 }
 .sidenav img:hover {
@@ -36,7 +37,7 @@ export default {
 }
 .sidenav {
   height: 100%;
-  width: 5rem;
+  width: 7rem;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -47,12 +48,20 @@ export default {
   align-items: center;
   justify-content: center;
 }
+@keyframes appear {
+  to {
+    opacity: 1;
+  }
+  from {
+    opacity: 0;
+  }
+}
 @media screen and (max-width: 600px) {
   .sidenav img {
     width: 25px;
   }
   .sidenav {
-    width: 2.5rem;
+    width: 2.8rem;
     top: none;
     left: none;
     bottom: 0;

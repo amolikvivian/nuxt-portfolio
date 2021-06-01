@@ -59,7 +59,9 @@ h2 {
   margin-bottom: 1%;
   padding-bottom: 0.7rem;
   font-size: 1.8rem;
+  width: 100%;
 }
+
 .title {
   font-size: 2.5rem;
   background-color: transparent;

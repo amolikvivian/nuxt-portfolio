@@ -1,8 +1,16 @@
 <template>
   <div>
+    <Nav />
     <Nuxt />
   </div>
 </template>
+
+<script>
+import Nav from './../components/Navbar.vue'
+export default {
+  components: { Nav },
+}
+</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
