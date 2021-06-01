@@ -8,7 +8,7 @@ https://amolikvivian.netlify.app/
 
 ## Screenshots
 
-<img src="" alt="Home Landing">
+<img src="./portfolio.png" alt="Home Landing">
 
 ## Build Setup
 
