@@ -4,7 +4,7 @@ Portfolio website developed on Nuxt JS - a framework built on Vue JS.
 
 ## Live Demo
 
-https://amolikvivian.netlify.app/
+The website is currently hosted on Netlify, check it out <a href="https://amolikvivian.netlify.app/" target="_blank">here</a>.
 
 ## Screenshots
 
